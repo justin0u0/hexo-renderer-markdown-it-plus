@@ -14,7 +14,7 @@ This is [demo project](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-pl
 + [sub](https://www.npmjs.com/package/markdown-it-sub), `H~2~0` H<sub>2</sub>0
 + [sup](https://www.npmjs.com/package/markdown-it-sup), `x^2^` x<sup>2</sup>
 + [ins](https://www.npmjs.com/package/markdown-it-ins), `++Inserted++` <ins>Inserted</ins>, `~~Del~~` <s>Del</s>
-+ [Katex](https://www.npmjs.com/package/@iktakahiro/markdown-it-katex), [referer](https://github.com/Khan/KaTeX)
++ [Katex](https://www.npmjs.com/package/@neilsustc/markdown-it-katex), [referer](https://github.com/Khan/KaTeX)
 + [emoji](https://www.npmjs.com/package/markdown-it-emoji), [referer](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 + [toc&anchor](https://www.npmjs.com/package/markdown-it-toc-and-anchor) `@[toc]`
 + [deflist](http://pandoc.org/MANUAL.html#definition-lists)
@@ -75,7 +75,7 @@ plugins enabled by default:
  + `markdown-it-footnote`  
  + `markdown-it-ins`  
  + `markdown-it-mark`  
- + `@iktakahiro/markdown-it-katex`  
+ + `@neilsustc/markdown-it-katex`  
  + `markdown-it-toc-and-anchor`  
 
 ## Add other `markdown-it` Plugins

@@ -5,7 +5,7 @@ This renderer plugin uses Markdown-it as a render engine on Hexo.
 This renderer plugin is forked from [hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it/blob/master/lib/renderer.js).
 Add some plugins and support third-part `markdown-it` plugin.
 
-This is [demo project](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus-demo.git).
+This is [demo project](https://github.com/upupming/hexo-renderer-markdown-it-plus-demo.git).
 
 ## Main Features
 + Support for Markdown
@@ -25,7 +25,7 @@ This is [demo project](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-pl
 ## Install
 ```shell
 npm un hexo-renderer-marked --save
-npm i hexo-renderer-markdown-it-plus --save
+npm i @upupming/hexo-renderer-markdown-it-plus --save
 ```
 
 ## Options
@@ -101,6 +101,7 @@ markdown_it_plus:
 ## LOG
 
 + **1.0.1** Add `pre_class` option.
-+ **1.0.2** Add `highlight.js` pakage to dependencies[#2](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus/issues/2).
++ **1.0.2** Add `highlight.js` pakage to dependencies[#2](https://github.com/upupming/hexo-renderer-markdown-it-plus/issues/2).
 + **1.0.3** Update `katex` plugin, using `katex 0.9`
-+ **1.0.4** PR [#17](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus/pull/17)
++ **1.0.4** PR [#17](https://github.com/upupming/hexo-renderer-markdown-it-plus/pull/17)
++ **2.0.0** Switch to `@neilsustc/markdown-it-katex` for latest KaTeX features. We will keep up-to-date with KaTeX's newest features in the future.

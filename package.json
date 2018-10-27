@@ -1,6 +1,6 @@
 {
-  "name": "hexo-renderer-markdown-it-plus",
-  "version": "1.0.4",
+  "name": "@upupming/hexo-renderer-markdown-it-plus",
+  "version": "2.0.0",
   "description": "A faster and CommonMark compliant alternative for Hexo.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus.git"
+    "url": "git+https://github.com/upupming/hexo-renderer-markdown-it-plus.git"
   },
   "keywords": [
     "hexo",
@@ -16,12 +16,12 @@
     "markdown",
     "markdown-it"
   ],
-  "author": "CHENXCHEN",
+  "author": "CHENXCHEN & upupming",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus/issues"
+    "url": "https://github.com/upupming/hexo-renderer-markdown-it-plus/issues"
   },
-  "homepage": "https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus#readme",
+  "homepage": "https://github.com/upupming/hexo-renderer-markdown-it-plus#readme",
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^0.2.0",
     "clone": "^2.1.1",

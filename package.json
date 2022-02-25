@@ -1,6 +1,6 @@
 {
-  "name": "@upupming/hexo-renderer-markdown-it-plus",
-  "version": "2.0.2",
+  "name": "@justin0u0/hexo-renderer-markdown-it-plus",
+  "version": "2.0.3",
   "description": "A faster and CommonMark compliant alternative for Hexo.",
   "main": "index.js",
   "scripts": {

@@ -25,7 +25,7 @@ This is [demo project](https://github.com/upupming/hexo-renderer-markdown-it-plu
 ## Install
 ```shell
 npm un hexo-renderer-marked --save
-npm i @upupming/hexo-renderer-markdown-it-plus --save
+npm install git+ssh://git@github.com/justin0u0/hexo-renderer-markdown-it-plus.git#2.0.4
 ```
 
 ## Options
@@ -105,3 +105,5 @@ markdown_it_plus:
 + **1.0.3** Update `katex` plugin, using `katex 0.9`
 + **1.0.4** PR [#17](https://github.com/upupming/hexo-renderer-markdown-it-plus/pull/17)
 + **2.0.0** Switch to `@neilsustc/markdown-it-katex` for latest KaTeX features. We will keep up-to-date with KaTeX's newest features in the future.
++ **2.0.3** Upgrade `highlight.js` to 10.7.3.
++ **2.0.4** Upgrade `markdown-it` to 12.3.2, `markdown-it-deflist` to 2.1.0, `markdown-it-emoji` to 2.0.0, `markdown-it-footnote` to 3.0.3, `markdown-it-ins` to 3.0.1, `markdown-it-mark` to 3.0.1.

@@ -14,7 +14,7 @@ This is [demo project](https://github.com/upupming/hexo-renderer-markdown-it-plu
 + [sub](https://www.npmjs.com/package/markdown-it-sub), `H~2~0` H<sub>2</sub>0
 + [sup](https://www.npmjs.com/package/markdown-it-sup), `x^2^` x<sup>2</sup>
 + [ins](https://www.npmjs.com/package/markdown-it-ins), `++Inserted++` <ins>Inserted</ins>, `~~Del~~` <s>Del</s>
-+ [Katex](https://www.npmjs.com/package/@neilsustc/markdown-it-katex), [referer](https://github.com/Khan/KaTeX)
++ [Katex](https://www.npmjs.com/package/@renbaoshuo/markdown-it-katex), [referer](https://github.com/Khan/KaTeX)
 + [emoji](https://www.npmjs.com/package/markdown-it-emoji), [referer](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 + [toc&anchor](https://www.npmjs.com/package/markdown-it-toc-and-anchor) `@[toc]`
 + [deflist](http://pandoc.org/MANUAL.html#definition-lists)
@@ -75,7 +75,7 @@ plugins enabled by default:
  + `markdown-it-footnote`  
  + `markdown-it-ins`  
  + `markdown-it-mark`  
- + `@neilsustc/markdown-it-katex`  
+ + `@renbaoshuo/markdown-it-katex`
  + `markdown-it-toc-and-anchor`  
 
 ## Add other `markdown-it` Plugins
@@ -107,3 +107,5 @@ markdown_it_plus:
 + **2.0.0** Switch to `@neilsustc/markdown-it-katex` for latest KaTeX features. We will keep up-to-date with KaTeX's newest features in the future.
 + **2.0.3** Upgrade `highlight.js` to 10.7.3.
 + **2.0.4** Upgrade `markdown-it` to 12.3.2, `markdown-it-deflist` to 2.1.0, `markdown-it-emoji` to 2.0.0, `markdown-it-footnote` to 3.0.3, `markdown-it-ins` to 3.0.1, `markdown-it-mark` to 3.0.1.
++ **2.0.5** Remove `mark-it-toc`.
++ **2.0.6** Replace `@neilsustc/markdown-it-katex` with `@renbaoshuo/markdown-it-katex`.

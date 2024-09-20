@@ -109,3 +109,4 @@ markdown_it_plus:
 + **2.0.4** Upgrade `markdown-it` to 12.3.2, `markdown-it-deflist` to 2.1.0, `markdown-it-emoji` to 2.0.0, `markdown-it-footnote` to 3.0.3, `markdown-it-ins` to 3.0.1, `markdown-it-mark` to 3.0.1.
 + **2.0.5** Remove `mark-it-toc`.
 + **2.0.6** Replace `@neilsustc/markdown-it-katex` with `@renbaoshuo/markdown-it-katex`.
++ **2.0.7** Upgrade `markdown-it` to 13.0.2.
